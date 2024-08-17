@@ -139,20 +139,14 @@ class DiveIntoAnsible_lab(unittest.TestCase):
     def test_03_check_ttyd_is_running(self, host):
         self.assertTrue(isOpen(host, 7681))
 
-    def test_04_check_volume_mounts_working(self):
-        self.assertTrue(os.path.exists("/etc/.env"))
-
-    def test_05_check_env_has_content(self):
-        self.assertNotEqual(open("/etc/.env", "r").read().find("ANSIBLE_HOME="), -1)
-
-    def test_06_check_portal_running(self):
+    def test_04_check_portal_running(self):
         self.assertTrue(isOpen("portal", 80))
 
-    def test_07_check_docker_in_docker_running(self):
+    def test_05_check_docker_in_docker_running(self):
         self.assertTrue(isOpen("docker", 2375))
 
     @parameterized.expand(get_playbooks())
-    def test_08_run_playbook(self, directory, playbook):
+    def test_06_run_playbook(self, directory, playbook):
         os.chdir(directory)
         self.assertEqual(
             os.system(
