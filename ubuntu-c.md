@@ -149,3 +149,17 @@ ansible@ubuntu-c:/tmp$ cd
 ansible@ubuntu-c:~$ pwd
 /home/ansible
 
+ansible@ubuntu-c:~$ touch this_is_my_example_ansible.cfg
+ansible@ubuntu-c:~$ export ANSIBLE_CONFIG=/home/ansible/this_is_my_example_ansible.cfg
+ansible@ubuntu-c:~$ ansible --version
+ansible [core 2.17.4]
+  config file = /home/ansible/this_is_my_example_ansible.cfg
+  configured module search path = ['/home/ansible/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/local/lib/python3.10/dist-packages/ansible
+  ansible collection location = /home/ansible/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/local/bin/ansible
+  python version = 3.10.12 (main, Jul 29 2024, 16:56:48) [GCC 11.4.0] (/usr/bin/python3)
+  jinja version = 3.1.4
+  libyaml = True
+
+  
