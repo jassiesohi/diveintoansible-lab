@@ -164,3 +164,140 @@ ls
 cat ansible.cfg 
 cat hosts 
 ansible all -m ping -o
+cd ../10
+ls
+cd diveintoansible/
+ls
+cd Ansible\ Architecture\ and\ Design/
+ls
+cd Inventories/
+ls
+cd ../10
+la
+cd 10/
+ls
+cd ../11
+ls
+cat ansible.cfg 
+cat hosts 
+ansible linux -m ping -o
+cd ../12
+ls
+cat ansible.cfg 
+cat hosts 
+ansible linux -m ping -o
+ansible all -m ping -o
+cd ../13
+cat ansible.cfg 
+cat hosts 
+ansible linux -m ping -o
+cd ../14
+cat ansible.cfg 
+cat hosts
+cat hosts.yaml 
+ls
+ansible linux -m ping -o
+cd ../15
+cat hosts.json 
+cd ../16
+ansible linux -m ping -e 'ansible_port=22' -o
+pwd
+cd ..
+ls
+cd ..
+ls
+cd Modules/
+ls
+ansible centos1 -m setup |more
+ansible all -m ping -o
+cd ..
+ls
+cd ..
+ls
+cd Ansible\ Architecture\ and\ Design/
+ls
+cd ..
+ls
+Ansible\ Playbooks\,\ Introduction/Ansible\ Playbooks\,\ Creating\ and\ Executing/solution/
+la
+pwd
+cd Ansible\ Playbooks\,\ Introduction/Ansible\ Playbooks\,\ Creating\ and\ Executing/
+ls
+cd solution/
+ls
+cd 01
+ls
+cat nginx_playbook.yaml 
+ping centos1
+ping centos2
+ping centos3
+ansible-playbook nginx_playbook.yaml 
+ls
+cd ../02
+ls
+cat nginx_playbook.yaml 
+ansible-playbook nginx_playbook.yaml 
+ls
+cat ansible.cfg 
+cat files/
+ls -la files/
+ls
+cat group_vars/
+ls -la group_vars/
+cd group_vars/
+ls
+cat centos 
+cat ubuntu 
+cd ..
+ls
+ls -la host_vars/
+cd host_vars/
+ls
+vi centos1 
+cat centos1 
+cat ubuntu-c 
+cd ..
+ls
+cat hosts
+cat nginx_playbook.yaml 
+ls
+ls -la templates/
+ls -la vars
+cd vars/
+cat logos.yaml 
+ls
+cd ..
+ls
+cd ../03
+ls
+cat nginx_playbook.yaml 
+ansible-playbook nginx_playbook.yaml 
+cd ../04
+ls
+cat nginx_playbook.yaml 
+ansible-playbook nginx_playbook.yaml 
+cd ../05
+ls
+cat nginx_playbook.yaml 
+ansible-playbook nginx_playbook.yaml 
+cd ../06
+ls
+cat nginx_playbook.yaml 
+cat group_vars/*
+cat nginx_playbook.yaml 
+ls
+ansible-playbook nginx_playbook.yaml 
+cd ../07
+cat nginx_playbook.yaml 
+cat ansible.cfg 
+vim templates/index.html-ansible_managed.j2 
+cd ../08
+ls
+cat nginx_playbook.yaml 
+ansible-playbook nginx_playbook.yaml 
+cd ..09
+cd ../09
+ls
+cat nginx_playbook.yaml 
+ansible-playbook nginx_playbook.yaml 
+exit

@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q
+|2,0,1751774225,,"q"
 :wq
 |2,0,1751543186,,"wq"
-:q
-|2,0,1751541453,,"q"
 
 # Search String History (newest to oldest):
 
@@ -30,24 +30,106 @@
 |3,1,1,1,1,0,1751543183,"host_key_checking = False"
 
 # File marks:
-'0  1  0  ~/ansible.cfg
-|4,48,1,0,1751543186,"~/ansible.cfg"
-'1  2  0  ~/ansible.cfg
-|4,49,2,0,1751541453,"~/ansible.cfg"
-'2  2  0  ~/ansible.cfg
-|4,50,2,0,1751541453,"~/ansible.cfg"
+'0  1  0  ~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/07/templates/index.html-ansible_managed.j2
+|4,48,1,0,1751774225,"~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/07/templates/index.html-ansible_managed.j2"
+'1  1  0  ~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/07/templates/index.html-ansible_managed.j2
+|4,49,1,0,1751774156,"~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/07/templates/index.html-ansible_managed.j2"
+'2  1  0  ~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/02/host_vars/centos1
+|4,50,1,0,1751770897,"~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/02/host_vars/centos1"
+'3  1  0  ~/ansible.cfg
+|4,51,1,0,1751543186,"~/ansible.cfg"
+'4  2  0  ~/ansible.cfg
+|4,52,2,0,1751541453,"~/ansible.cfg"
+'5  2  0  ~/ansible.cfg
+|4,53,2,0,1751541453,"~/ansible.cfg"
 
 # Jumplist (newest first):
+-'  1  0  ~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/07/templates/index.html-ansible_managed.j2
+|4,39,1,0,1751774225,"~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/07/templates/index.html-ansible_managed.j2"
+-'  1  0  ~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/07/templates/index.html-ansible_managed.j2
+|4,39,1,0,1751774156,"~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/07/templates/index.html-ansible_managed.j2"
+-'  1  0  ~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/02/host_vars/centos1
+|4,39,1,0,1751770897,"~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/02/host_vars/centos1"
+-'  1  0  ~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/02/host_vars/centos1
+|4,39,1,0,1751770897,"~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/02/host_vars/centos1"
+-'  1  0  ~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/02/host_vars/centos1
+|4,39,1,0,1751770897,"~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/02/host_vars/centos1"
+-'  1  0  ~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/02/host_vars/centos1
+|4,39,1,0,1751770897,"~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/02/host_vars/centos1"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751543186,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751543186,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751543186,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751543186,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751543186,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751543186,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751543186,"~/ansible.cfg"
 -'  1  0  ~/ansible.cfg
 |4,39,1,0,1751543186,"~/ansible.cfg"
 -'  2  0  ~/ansible.cfg
 |4,39,2,0,1751541453,"~/ansible.cfg"
 -'  2  0  ~/ansible.cfg
 |4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  2  0  ~/ansible.cfg
+|4,39,2,0,1751541453,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751541449,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751541449,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751541449,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751541449,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751541449,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751541449,"~/ansible.cfg"
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1751541449,"~/ansible.cfg"
 -'  1  0  ~/ansible.cfg
 |4,39,1,0,1751541449,"~/ansible.cfg"
 
 # History of marks within files (newest to oldest):
+
+> ~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/07/templates/index.html-ansible_managed.j2
+	*	1751774225	0
+	"	1	0
+
+> ~/diveintoansible/Ansible Playbooks, Introduction/Ansible Playbooks, Creating and Executing/solution/02/host_vars/centos1
+	*	1751770896	0
+	"	1	0
 
 > ~/ansible.cfg
 	*	1751543185	0
